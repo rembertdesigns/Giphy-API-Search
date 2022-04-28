@@ -16,3 +16,52 @@
     background-size: 200%;
   }
   
+  header h1 {
+    padding: 20px 10px;
+    letter-spacing: 0.2em;
+    color: white;
+  }
+  
+  form * {
+    background: rgba(256,256,256, 0.3);
+    color: white;
+  }
+  
+  form .search, form .btn {
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 16px;
+    border: 1px solid white;
+  }
+  
+  ::placeholder {
+    color: #f5f5f5;
+  }
+
+  form .search {
+    width: 40%;
+    min-width: 200px;
+    max-width: 600px; 
+  }
+  form .search:focus {
+    outline: 0;
+    color: #333;
+    background: white;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+  }
+  
+  form .btn {
+    cursor: pointer;
+    width: 60px;
+  }
+  form .btn[type="submit"] {
+    -webkit-appearance: button;
+  }
+  form .btn:hover {
+    color: #333;
+    background: white;
+  }
+  form .clear:hover {
+    background: ;
+  }
+  
